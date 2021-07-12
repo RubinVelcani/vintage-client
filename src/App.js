@@ -19,7 +19,6 @@ function App() {
 
   const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
-
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
   
